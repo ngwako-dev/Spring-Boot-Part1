@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3ff5de6-8a44-4cca-a538-7c2b7e22a62c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aPHumcbqtDPWnjd3y4hqEm7sbi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springbootpart1.MyApplication" />
+      <module name="SPRING_-BOOT-PART1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springbootpart1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3ff5de6-8a44-4cca-a538-7c2b7e22a62c" name="Default Changelist" comment="" />
+      <created>1586630533572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586630533572</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="59" width="848" height="684" key="#Project_Structure" timestamp="1586744053496">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="313" y="59" width="848" height="684" key="#Project_Structure/70.27.1296.741@70.27.1296.741" timestamp="1586744053496" />
+    <state x="526" y="101" width="374" height="599" key="#com.intellij.ide.util.MemberChooser" timestamp="1586868385695">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="526" y="101" width="374" height="599" key="#com.intellij.ide.util.MemberChooser/70.27.1296.741@70.27.1296.741" timestamp="1586868385695" />
+    <state x="475" y="27" width="476" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586826567649">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="475" y="27" width="476" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1296.741@70.27.1296.741" timestamp="1586826567649" />
+    <state width="1250" height="137" key="GridCell.Tab.0.bottom" timestamp="1586870889665">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="137" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1586870889665" />
+    <state width="1250" height="137" key="GridCell.Tab.0.center" timestamp="1586870889663">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="137" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1586870889663" />
+    <state width="1250" height="137" key="GridCell.Tab.0.left" timestamp="1586870889663">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="137" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1586870889663" />
+    <state width="1250" height="137" key="GridCell.Tab.0.right" timestamp="1586870889664">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1250" height="137" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1586870889664" />
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1586825922300">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1586825922300" />
+  </component>
+</project>
