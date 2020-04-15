@@ -2,7 +2,7 @@ package springbootpart1;
 
 public interface UserService {
 
-   String addUser(String name,String surname);
+   String addUser(long Id,String name,String surname);
 
     String removeUser(long Id);
 

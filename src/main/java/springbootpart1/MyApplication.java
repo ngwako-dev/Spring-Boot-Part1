@@ -10,9 +10,11 @@ public class MyApplication {
 
         SpringApplication.run(MyApplication.class, args);
 
-        FakeRepo u1=new FakeRepo();
+        UserServiceImpl user =new UserServiceImpl();
 
-        System.out.println(u1.deleteUser(1));
+        System.out.println(user.addUser(5,"Gift","Moshobane"));
+        System.out.println(user.getUser(5));
+        System.out.println(user.removeUser(5));
 
 
 

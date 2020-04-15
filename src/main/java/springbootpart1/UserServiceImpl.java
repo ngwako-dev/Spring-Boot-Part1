@@ -1,25 +1,33 @@
 package springbootpart1;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
-@Component
+
+
 public  class UserServiceImpl implements UserService {
 
-    private FakeRepo fakeRepo;
+ public FakeRepo fakeRepo=new FakeRepo();
+
+//injecting or connecting objects from FakeRepo for creating UserServiceImpl class
 @Autowired
+
     @Override
-    public String addUser(String name, String surname) {
-        return FakeRepo.;
+    public String addUser(long id,String name, String surname) {
+
+        return fakeRepo.insertUser(id,name,surname);
     }
+
 
     @Override
     public String removeUser(long Id) {
-        return null;
+
+
+    return fakeRepo.deleteUser(Id);
     }
 
     @Override
     public String getUser(long Id) {
-        return null;
+
+        return fakeRepo.findUserById(Id);
     }
 }
