@@ -31,7 +31,7 @@ public class FakeRepo  implements FakeRepoInterface{
 
     @Override
     public String deleteUser(long id) {
-        String message=" Replaced";
+        String message=" Removed";
         for(User b:DB){
             long Id=b.getId();
             if(Id==id){
