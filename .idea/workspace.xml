@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3ff5de6-8a44-4cca-a538-7c2b7e22a62c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/springbootpart1/UserServiceImlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/springbootpart1/FakeRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/springbootpart1/FakeRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/springbootpart1/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/springbootpart1/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/springbootpart1/FakeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbootpart1/FakeRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springbootpart1/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springbootpart1/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +29,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,7 +63,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.UserServiceImlTest.removeUser">
     <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springbootpart1.MyApplication" />
       <module name="SPRING_-BOOT-PART1.main" />
@@ -55,9 +77,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceImlTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;springbootpart1.UserServiceImlTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceImlTest.addUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;springbootpart1.UserServiceImlTest.addUser&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceImlTest.removeUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;springbootpart1.UserServiceImlTest.removeUser&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyApplication" />
+        <item itemvalue="Gradle.UserServiceImlTest.removeUser" />
+        <item itemvalue="Gradle.UserServiceImlTest" />
+        <item itemvalue="Gradle.UserServiceImlTest.addUser" />
+        <item itemvalue="Gradle.UserServiceImlTest.addUser" />
+        <item itemvalue="Gradle.UserServiceImlTest" />
       </list>
     </recent_temporary>
   </component>
@@ -83,29 +169,41 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="526" y="101" width="374" height="599" key="#com.intellij.ide.util.MemberChooser/70.27.1296.741@70.27.1296.741" timestamp="1586911169028" />
+    <state x="401" y="134" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587030209678">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="401" y="134" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/70.27.1296.741@70.27.1296.741" timestamp="1587030209678" />
     <state x="475" y="27" width="476" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586826567649">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="475" y="27" width="476" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/70.27.1296.741@70.27.1296.741" timestamp="1586826567649" />
-    <state width="1250" height="137" key="GridCell.Tab.0.bottom" timestamp="1586913355672">
+    <state width="1250" height="137" key="GridCell.Tab.0.bottom" timestamp="1587151128088">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="137" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1586913355672" />
-    <state width="1250" height="137" key="GridCell.Tab.0.center" timestamp="1586913355672">
+    <state width="1250" height="137" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1587151128088" />
+    <state width="1250" height="137" key="GridCell.Tab.0.center" timestamp="1587151128087">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="137" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1586913355672" />
-    <state width="1250" height="137" key="GridCell.Tab.0.left" timestamp="1586913355672">
+    <state width="1250" height="137" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1587151128087" />
+    <state width="1250" height="137" key="GridCell.Tab.0.left" timestamp="1587151128087">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="137" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1586913355672" />
-    <state width="1250" height="137" key="GridCell.Tab.0.right" timestamp="1586913355672">
+    <state width="1250" height="137" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1587151128087" />
+    <state width="1250" height="137" key="GridCell.Tab.0.right" timestamp="1587151128087">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="1250" height="137" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1586913355672" />
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1586825922300">
+    <state width="1250" height="137" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1587151128087" />
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1587030053587">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1586825922300" />
+    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1587030053587" />
+    <state x="463" y="27" width="500" height="741" key="refactoring.ChangeSignatureDialog" timestamp="1587033498009">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="463" y="27" width="500" height="741" key="refactoring.ChangeSignatureDialog/70.27.1296.741@70.27.1296.741" timestamp="1587033498009" />
+    <state x="382" y="174" key="run.anything.popup" timestamp="1587033335155">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="382" y="174" key="run.anything.popup/70.27.1296.741@70.27.1296.741" timestamp="1587033335155" />
   </component>
 </project>

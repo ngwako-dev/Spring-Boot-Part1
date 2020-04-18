@@ -1,17 +1,16 @@
 package springbootpart1;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 
 
 public  class UserServiceImpl implements UserService {
 
- public FakeRepo fakeRepo=new FakeRepo();
 
-//injecting or connecting objects from FakeRepo for creating UserServiceImpl class
-@Autowired
 
-    @Override
+
+
+ FakeRepo fakeRepo=new FakeRepo();
+
+
     public String addUser(long id,String name, String surname) {
 
         return fakeRepo.insertUser(id,name,surname);
